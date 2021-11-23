@@ -19,12 +19,6 @@ public class LQueueTest {
         lQueue.enqueue("item3");
         lQueue.enqueue("item4");
         lQueue.enqueue("item5");
-        lQueue.enqueue("item6");
-        lQueue.enqueue("item6");
-        lQueue.enqueue("item6");
-        lQueue.enqueue("item6");
-        lQueue.enqueue("item6");
-        lQueue.enqueue("item6");
 
         lQueue.dequeue();
         lQueue.dequeue();
