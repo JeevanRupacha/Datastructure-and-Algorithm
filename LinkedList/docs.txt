@@ -1,0 +1,16 @@
+Linked list :
+    types: 
+        -LinkedList
+        -singly LinkedList
+        -dobuly LinkedList
+        -circular singly LinkedList
+        -circular dobuly LinkedList
+
+    Operation in LinkedList:
+     - creation of Node
+     - insertion from begggining Node
+     - insertion from last Node
+     - insertion at nth Node
+     - deletion of Node
+     - searching a Node
+     - traversal of list 

@@ -11,6 +11,7 @@ public class CQueueTest {
         Object deletedVal = cqueue.dequeue();
         System.out.println("deletedVal: " +deletedVal );
         cqueue.display();
+        
         // cqueue.enqueue("item2");
         // cqueue.enqueue("item3");
         // cqueue.enqueue("item4");
