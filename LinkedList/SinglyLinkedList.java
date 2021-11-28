@@ -115,9 +115,15 @@ public class SinglyLinkedList implements LinkedList<SinglyLinkedList> {
     
                 count++;
             }
-    
-            newNode.next = tempNode.next;
-            tempNode.next = newNode;
+
+            if(position == 1)
+            {   //if position is 1 insert in begging of the list 
+                newNode.next = tempNode;
+                node = newNode;
+            }else{
+                newNode.next = tempNode.next;
+                tempNode.next = newNode;
+            }
         }
         
     }

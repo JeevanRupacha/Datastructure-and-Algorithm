@@ -2,7 +2,7 @@ package LinkedList;
 
 public class Node {
     Object root = null;
-    Node previous = null;
+    Node prev = null;
     Node next = null;
     
     
