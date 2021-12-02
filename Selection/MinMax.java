@@ -41,7 +41,7 @@ public class MinMax {
     // Depth Details version
     public int[] minMax(int[] arrayData, int left, int right)
     {
-        int min = 999, max = -999;
+        int min, max;
 
         if(right-left <= 1)
         {
