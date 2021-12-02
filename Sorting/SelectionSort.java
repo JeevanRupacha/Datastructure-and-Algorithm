@@ -15,14 +15,14 @@ public class SelectionSort {
 
         for(int i=0;i<n;i++)
         {
-            int min = this.data[i];
-            for(int j=i+1;j<n-i-1; j++)
+            int minIndex = i;
+            for(int j=i+1;j<n; j++)
             {
-                if(this.data[i] > this.data[j])
+                if(this.data[j] < this.data[minIndex])
                 {
-                    int temp = this.data[i];
-                    this.data[i] = this.data[j];
-                    this.data[j] = temp;
+                    int temp = this.data[j];
+                    this.data[j] = this.data[minIndex];
+                    this.data[minIndex] = temp;
                 }
             }
         }
