@@ -9,9 +9,13 @@ public class SortingTest {
         // bs.display();
 
         // SelectionSort ss = new SelectionSort(new int[]{1,-34,5,63,2,7,4,8});
-        SelectionSort ss = new SelectionSort(new int[]{1,-34});
-        ss.sort();
-        ss.display();
+        // SelectionSort ss = new SelectionSort(new int[]{1,-34});
+        // ss.sort();
+        // ss.display();
+
+        InsertionSort is = new InsertionSort(new int[]{2,3,4,5,6,-1,9,4,2,-100,100});
+        is.sort();
+        is.display();
 
         
     }
