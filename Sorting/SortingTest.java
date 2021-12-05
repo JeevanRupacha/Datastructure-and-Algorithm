@@ -13,9 +13,13 @@ public class SortingTest {
         // ss.sort();
         // ss.display();
 
-        InsertionSort is = new InsertionSort(new int[]{2,3,4,5,6,-1,9,4,2,-100,100});
-        is.sort();
-        is.display();
+        // InsertionSort is = new InsertionSort(new int[]{2,3,4,5,6,-1,9,4,2,-100,100});
+        // is.sort();
+        // is.display();
+
+        MergeSort ms = new MergeSort(new int[]{101,2,3,45,-50,4,5,6,7,-100});
+        ms.sort();
+        ms.display();
 
         
     }
