@@ -17,9 +17,13 @@ public class SortingTest {
         // is.sort();
         // is.display();
 
-        MergeSort ms = new MergeSort(new int[]{101,2,3,45,-50,4,5,6,7,-100});
-        ms.sort();
-        ms.display();
+        // MergeSort ms = new MergeSort(new int[]{101,2,3,45,-50,4,5,6,7,-100});
+        // ms.sort();
+        // ms.display();
+
+        QuickSort qs = new QuickSort(new int[]{12,100, 45,3,2,5,6,-100});
+        qs.sort();
+        qs.display();
 
         
     }
