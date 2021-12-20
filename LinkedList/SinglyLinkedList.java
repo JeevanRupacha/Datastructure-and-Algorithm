@@ -211,3 +211,12 @@ public class SinglyLinkedList implements LinkedList<SinglyLinkedList> {
         return true;
     }
 }
+
+
+/*
+Analysis
+        As we seen above insertion at Head/Tail can be done in O(1) time that is quit fast if your requirement is to insert at ends. But insertion in middle like Insertion at some position then you will have to traverse the list until you find the position and then you have to insert new node so that will be O(n+1) time expensive operation in worst cast.
+
+        Deletion and search complexity is also O(n) in worst case, because it has to traverse the list to find the correct node, traversing is always O(n) where n is the number of nodes in list.
+        
+*/
