@@ -19,7 +19,18 @@ package BackTracking.EightQueen;
                 step (a) to try other rows.
           3) If all rows have been tried and nothing worked,
             return false to trigger backtracking.
+
+            Analysis: 
+            Time complexity of N queens algorithm : For finding a single solution 
+            where the first queen ‘Q’ has been assigned the first column and can 
+            be put on N positions, the second queen has been assigned the second 
+            column and would choose from N-1 possible positions and so on; the time
+            complexity is O ( N ) * ( N - 1 ) * ( N - 2 ) * … 1 ). i.e The 
+            worst-case time complexity is O ( N! ). Thus, for finding all 
+            the solutions to the N Queens problem the time complexity runs 
+            in polynomial time.
  */
+
 public class EightQueen {
   
   public boolean isSafe(int[][] board, int row, int col )
@@ -65,8 +76,6 @@ public class EightQueen {
     for (int i = 0; i < n; i++) {
       if (isSafe(board, i, col)) {
         board[i][col] = 1;
-
-        System.out.println("First is assigned ");
 
         //Checks for next column 
         if (solveNQ(board, col + 1)) {
