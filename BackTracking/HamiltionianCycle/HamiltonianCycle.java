@@ -29,6 +29,11 @@ package BackTracking.HamiltionianCycle;
  *          24> path[pos] = -1
  *          25> End IF
  *          26> End FOR
+ * 
+ *    Analysis :
+ *            The time complexcity is 
+ *            It takes (n-1)! times for n element 
+ *            So O(n^n)
  *          
  */
 public class HamiltonianCycle {
